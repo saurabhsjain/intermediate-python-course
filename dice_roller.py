@@ -4,7 +4,7 @@ def main():
     dice_rolls = 2
     dice_size = int(input('How many sides are the dice? '))
     dice_sum = 0
-    for i in range(0, dice_rolls):
+    for i in range(0, dice_rolls): 
         roll = random.randint(1, dice_size)
         dice_sum += roll
         if roll == 1:
